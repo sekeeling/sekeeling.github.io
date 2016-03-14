@@ -1,130 +1,49 @@
 #slideshow{
-		width:624px;
-		height:473px;
-		position:relative;
-/*		background-color: #0F6;
-*/	
-
 	width:800px;
-		height: 100%;
+	height: 100%;
 
 }
 
-	#slideshow ul{
-	
-	
-	
-	width:624px;
-	height:473px;
-	list-style:none outside none;
-	position:relative;
-	overflow:hidden;
-	
-	
+#slideshow ul{
 	width:800px;
 	height: 100%;
 	overflow: visible;
-	
-	
-	
-	
-
-	
-	
-/*	background-color: #33C;
-
-*/	}
+}
 
 
 
 #slideshow li:first-child{
-		display: none;
-		
-		
-		display:list-item;
-		position:absolute;
-		background-color:#FFF;
-		
+	display: none;
+}
 
-	}
-
-	#slideshow li{
-		position:absolute;
-		display:none;
-		
-		
-		position: inherit;
-		list-style-type: none;	
-		display:inline-block;
-		width: 20%;
-	
-	}
+#slideshow li{
+	position: inherit;
+	list-style-type: none;	
+	display:inline-block;
+	width: 20%;
+}
 
 #slideshow .prevButton{
-		/*height:7000px;
-		width:0px;*/
-		position:absolute;
-		/*top:50%;
-		margin-top:-36px*/;
-		cursor:pointer;
-/*		z-index:2000;
-*//*		background-position:left top;
-*/		left: 40px;
-		top: -16px;
-		
-		
-		
-		
-		display: none;
-
-	}
-
-	#slideshow .prevButton:hover{ 
-/*			background-position:left bottom;left:0;}
-*/			
-		}	
+	display: none;
+}
+	
+#slideshow .nextButton{
+	display: none;
+}
 			
-			#slideshow .nextButton{
-		/*height:72px;
-		width:668px;*/
-		position:absolute;
-		/*top:50%;
-		margin-top:-36px;
-*/		cursor:pointer;
-		/*z-index:2000;
-		background-position:right top;*/
-		left: 75px;
-		top: -16px;
-		
-		
-		
-		
-		display: none;
-
-	}
-
-
-	#slideshow .nextButton:hover{ 
-			/*background-position:right bottom;left:0;}*/
-			}
-			
-			
-	#slideshow .gridView{
-				
-				
-		display: none;
-
-		/*height:72px;
-		width:668px;*/
-		position:absolute;
-		/*top:50%;
-		margin-top:-36px;
-*/		cursor:pointer;
-		/*z-index:2000;
-		background-position:right top;*/
-		left: 115px;
-		top: -16px;
-	}
+#slideshow .gridView{
+	display: none;
+	/*height:72px;
+	width:668px;*/
+	position:absolute;
+	/*top:50%;
+	margin-top:-36px;*/
+	cursor:pointer;
+	/*z-index:2000;
+	background-position:right top;*/
+	left: 115px;
+	top: -16px;
+}
 
 
 #slideshow .gridView:hover{ 
@@ -135,44 +54,29 @@
 	cursor:pointer;
 	left: 115px;
 	top: -16px;
-	
-	
 	display: none;
-
-
-				}
+}
 				
 				
-	#slideshow .BackToSlideButton{
-		
-		display: none;
-
-		
-		
-		display: block;
-
-		/*height:7000px;
-		width:0px;*/
-		position:absolute;
-		/*top:50%;
-		margin-top:-36px*/;
-		cursor:pointer;
-/*		z-index:2000;
-*//*		background-position:left top;
-*/		left: 40px;
-		top: -16px;
-		textDecoration: underline;
-		
-	}
+#slideshow .BackToSlideButton{
+	display: none;
+	display: block;
+	/*height:7000px;
+	width:0px;*/
+	position:absolute;
+	/*top:50%;
+	margin-top:-36px*/;
+	cursor:pointer;
+	/*z-index:2000;*/
+	/*background-position:left top;*/
+	left: 40px;
+	top: -16px;
+	textDecoration: underline;
+	
+}
 	
 	
-				
-	#slideshow .BackToSlideButton: hover{
-		
-	}
-	
-	
-	#GridView {
+#GridView {
 /*	margin-left: 42px;
 */	margin: 0px;
 	
@@ -195,133 +99,4 @@
 	list-style-type: none;	
 	display:inline-block;
 	width: 23%;
-	
-	
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*.slideshow {
-    position: relative;
-    /* necessary to absolutely position the images inside */
-  /*  width: 80%;
-   same as the images inside 
-/*    height: 100px;
-}
-.slideshow img {
-    position: absolute;
-    display: none;
-}
-.slideshow img:first-child {
-    display: block;
-    /* overrides the previous style */
-/*}
-
-#prev { 
-	position: fixed;
-	top: 100px;
-	}
-
-
-#next {
-	position: fixed;
-	top: 250px;
-	right: 200px;
-	
-}
-*/
-
-
-
-/*.fadein { position:relative; width:500px; height:332px; }
-.fadein img { position:absolute; left:0; top:0; }
-.fadein a {display:block;}
-#next, #prev {
-    position: absolute;
-    cursor: pointer;
-    top: -30px;
-}
-
-#next {
-   position:fixed;
-   top: 170px;
-   left: 380px;
-}
-
-#prev {
-    position:fixed;
-	top: 170px;
-	left: 100;
-
-}
-*/
-
-
-
-
-
-
-/*#img-grp-wrap {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    margin: 10px auto;
-}
-
-.img-wrap {
-    position: relative;
-/*    border: 1px solid #CCC;
-*/   /* width: 100%;
-    height: 100%;
-}
-
-.img-wrap img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    -moz-box-shadow: 100px 100px 40px #CCC;
-/*    padding: 10px;
-}
-
-/*.next, .prev {
-    position: absolute;
-    cursor: pointer;
-    top: -30px;
-}
-
-.next {
-    right: 175px;
-}
-
-.prev {
-    left: 525px;
-}*/
